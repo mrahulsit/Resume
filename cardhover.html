@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .w-content{
+        width:40%;
+        height:0;
+        background: linear-gradient(rgba(0,0,0,0.6),#00DDFF);
+        border-radius: 10px;
+        position:absolute;
+        left:0;
+        bottom:0;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition : 0.5s linear;
+        flex-direction: column;
+    }
+    .w-content h5{
+        font-size:25px;
+        color:#ffffff;
+        margin-top: 20px;
+    }
+    .w-content p{
+        font-size:15px;
+        color:#ffffff;
+        width : 250px;
+    }
+    .w-box:hover .w-content{
+        height:100%;
+    }
+</style>
+<body>
+    <div class="worklist">
+        <div class="wbox">
+            <img src="./Images/Untitled" alt="Card" srcset="">
+            <div class="w-content">
+                <h5>Code With Rahul</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
+                    elit. Natus modi, maiores aut deleniti iste eum 
+                    aperiam asperiores suscipit quisquam eos!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
